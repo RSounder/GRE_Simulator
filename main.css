@@ -1,0 +1,105 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+.body-complete {
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo-buttons {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(58, 53, 52);
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo-img {
+    margin-left: 0.5rem;
+    width: 20%;
+    color: white;
+    filter: invert(0.9) grayscale(1) brightness(2);
+}
+
+input.button {
+    margin-right: 0.5rem;
+    background-color: rgb(51, 95, 144);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.qnum-timer {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(228, 205, 210);
+}
+
+.qnum {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section, .question {
+    margin-left: 0.5rem;
+    color: black;
+    font-size: medium;
+    font-family: sans-serif;    
+}
+
+.question {
+    padding-left: 0.5rem;
+    border-left: 1px solid;
+}
+
+.start-div {
+    display: flex;
+}
+
+.number-box {
+    width: 3.5rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+}
+
+.timer-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#timer{
+    padding: 5px;
+    color: black;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+img#contentImg {
+    max-height: 79vh;
+    align-content: center;
+    margin: 1rem;
+}
