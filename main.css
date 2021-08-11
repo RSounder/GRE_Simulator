@@ -81,7 +81,7 @@ input.button {
 .number-box {
     width: 3.5rem;
     margin-right: 0.5rem;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 .timer-div {
