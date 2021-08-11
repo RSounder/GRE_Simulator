@@ -14,7 +14,7 @@ function getPrevious() {
         contentImg.src = 'Ques/' + currentItemIndex + '.PNG';
     }
     buttonColor();
-}
+} 
 function getNext() {
     if(currentItemIndex < totalItems) {
         currentItemIndex++;
