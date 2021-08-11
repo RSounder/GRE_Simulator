@@ -10,7 +10,7 @@
 
 .logo-buttons {
     height: 10%;
-    width: 100%;
+    width: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +50,7 @@ input.button {
 
 .qnum-timer {
     height: 5%;
-    width: 100%;
+    width: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,6 +100,7 @@ input.button {
 
 img#contentImg {
     max-height: 79vh;
+    max-width: 95vh;
     align-content: center;
     margin: 1rem;
 }
