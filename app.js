@@ -1,4 +1,4 @@
-var totalItems = 0;
+var totalItems = 25;
 var startItems = 0;
 var currentItemIndex = 1;
 var quesNum = document.getElementById("quesNum");
