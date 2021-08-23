@@ -3,6 +3,7 @@ var startItems = 0;
 var currentItemIndex = 1;
 var quesNum = document.getElementById("quesNum");
 var contentImg = document.getElementById("contentImg");
+var folderName = "Probability";
 
 document.getElementById('prev-btn').style.display = 'none';
 document.getElementById('next-btn').style.display = 'none';
@@ -11,7 +12,7 @@ function getPrevious() {
     if(currentItemIndex > startItems) {
         currentItemIndex--;
         quesNum.innerHTML = 'QUESTION ' + currentItemIndex + ' of ' + totalItems;
-        contentImg.src = 'Ques/' + currentItemIndex + '.PNG';
+        contentImg.src = folderName + '/' + currentItemIndex + '.PNG';
     }
     buttonColor();
 } 
@@ -19,7 +20,7 @@ function getNext() {
     if(currentItemIndex < totalItems) {
         currentItemIndex++;
         quesNum.innerHTML = 'QUESTION ' + currentItemIndex + ' of ' + totalItems;
-        contentImg.src = 'Ques/' + currentItemIndex + '.PNG';
+        contentImg.src = folderName + '/' + currentItemIndex + '.PNG';
     }
     buttonColor();
 }
@@ -53,7 +54,7 @@ function startTest() {
     document.getElementById('prev-btn').style.backgroundColor = 'gray';
     document.getElementById('next-btn').style.display = 'block';
     
-    contentImg.src = 'Ques/' + currentItemIndex + '.PNG';
+    contentImg.src = folderName + '/' + currentItemIndex + '.PNG';
     
     var sec = (totalItems - startItems + 1)  * 100,
     countDiv = document.getElementById("timer"),
