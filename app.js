@@ -3,7 +3,7 @@ var startItems = 0;
 var currentItemIndex = 1;
 var quesNum = document.getElementById("quesNum");
 var contentImg = document.getElementById("contentImg");
-var folderName = "ETS_Quants_MixedSet2"; 
+var folderName = "ETS_Quants_MixedSet3"; 
 
 //Probability, ETS_Quants_MixedSet2,...
 
