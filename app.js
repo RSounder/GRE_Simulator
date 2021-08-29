@@ -47,14 +47,14 @@ function buttonColor() {
 }
 
 function startTest() {
-    var select = document.getElementById('inputFolder');
+    var select = document.getElementById('inputFolderid');
     folderName = select.options[select.selectedIndex];
 	
     totalItems = document.getElementById('attemptQues').value;
     startItems = document.getElementById('attemptQuesStart').value;
     currentItemIndex = startItems;
 	
-    document.getElementById('inputFolder').style.display = 'none';
+    document.getElementById('inputFolderid').style.display = 'none';
     document.getElementById('attemptQuesStart').style.display = 'none';
     document.getElementById('attemptQues').style.display = 'none';
     document.getElementById('start-btn').style.display = 'none';
