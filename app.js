@@ -14,7 +14,7 @@ document.getElementById('prev-btn').style.display = 'none';
 document.getElementById('next-btn').style.display = 'none';
 
 function update() {
-        var select = document.getElementById('folderName');
+        var select = document.getElementById('inputFolder');
         folderName = select.options[select.selectedIndex];
 }
 
