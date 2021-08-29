@@ -22,7 +22,7 @@ function getPrevious() {
     if(currentItemIndex > startItems) {
         currentItemIndex--;
         quesNum.innerHTML = 'QUESTION ' + currentItemIndex + ' of ' + totalItems;
-        contentImg.src = folderName + '/' + currentItemIndex + '.PNG';
+        contentImg.src = folderName.value + '/' + currentItemIndex + '.PNG';
     }
     buttonColor();
 } 
@@ -30,7 +30,7 @@ function getNext() {
     if(currentItemIndex < totalItems) {
         currentItemIndex++;
         quesNum.innerHTML = 'QUESTION ' + currentItemIndex + ' of ' + totalItems;
-        contentImg.src = folderName + '/' + currentItemIndex + '.PNG';
+        contentImg.src = folderName.value + '/' + currentItemIndex + '.PNG';
     }
     buttonColor();
 }
@@ -64,7 +64,7 @@ function startTest() {
     document.getElementById('prev-btn').style.backgroundColor = 'gray';
     document.getElementById('next-btn').style.display = 'block';
     
-    contentImg.src = folderName + '/' + currentItemIndex + '.PNG';
+    contentImg.src = folderName.value + '/' + currentItemIndex + '.PNG';
     
     var sec = (totalItems - startItems + 1)  * 100,
     countDiv = document.getElementById("timer"),
