@@ -60,7 +60,7 @@ function startTest() {
     document.getElementById('attemptQues').style.display = 'none';
     document.getElementById('start-btn').style.display = 'none';
 
-    document.getElementById('qnum-timer').style.display = 'block';
+    document.getElementById('qnum-timer').style.display = 'flex';
     document.getElementById('prev-btn').style.display = 'block';
     document.getElementById('prev-btn').style.backgroundColor = 'gray';
     document.getElementById('next-btn').style.display = 'block';
