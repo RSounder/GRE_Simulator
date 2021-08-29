@@ -3,10 +3,10 @@ var startItems = 0;
 var currentItemIndex = 1;
 var quesNum = document.getElementById("quesNum");
 var contentImg = document.getElementById("contentImg");
-//var folderName = "ETS_Quants_MixedSet3"; 
+var folderName = "ETS_Quants_MixedSet3"; 
 
-var selectfolderName = document.getElementById('folderName');
-var folderName = select.options[select.selectfolderName].value;
+//var selectfolderName = document.getElementById('folderName');
+//var folderName = select.options[select.selectfolderName].value;
 
 //Probability, ETS_Quants_MixedSet2,...
 
