@@ -51,10 +51,10 @@ input.button {
 input.about-button {
     margin-right: 0.5rem;
     background-color: rgb(128 103 95);
-    border: 2px solid #cacaca;
+    border: 2px solid #dedede;
     border-radius: 50%;
-    color: #cacaca;
-    padding: 3px 6px;
+    color: #dedede;
+    padding: 3px 9px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
