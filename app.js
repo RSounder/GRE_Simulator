@@ -54,7 +54,7 @@ function startTest() {
     startItems = document.getElementById('attemptQuesStart').value;
     currentItemIndex = startItems;
 	
-    select.style.display = 'none';
+    document.getElementById('inputFolder').style.display = 'none';
     document.getElementById('attemptQuesStart').style.display = 'none';
     document.getElementById('attemptQues').style.display = 'none';
     document.getElementById('start-btn').style.display = 'none';
