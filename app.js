@@ -3,12 +3,12 @@ var startItems = 0;
 var currentItemIndex = 1;
 var quesNum = document.getElementById("quesNum");
 var contentImg = document.getElementById("contentImg");
-var folderName = "ETS_Quants_MixedSet3"; 
+var folderName = ""; 
 
 //var select = document.getElementById('language');
 //var option = select.options[select.selectedIndex];
 
-//Probability, ETS_Quants_MixedSet2,...
+//Probability, ETS_Quants_MixedSet2,ETS_Quants_MixedSet3...
 
 document.getElementById('prev-btn').style.display = 'none';
 document.getElementById('next-btn').style.display = 'none';
