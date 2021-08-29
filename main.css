@@ -64,7 +64,6 @@ input.about-button {
 .qnum-timer {
     height: 5%;
     min-width: 100vh;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     background: rgb(228, 205, 210);
