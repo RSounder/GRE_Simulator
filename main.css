@@ -50,11 +50,11 @@ input.button {
 
 input.about-button {
     margin-right: 0.5rem;
-    background-color: rgb(128, 128, 128);
-    border: none;
+    background-color: rgb(128 103 95);
+    border: 2px solid #cacaca;
     border-radius: 50%;
-    color: white;
-    padding: 7px 10px;
+    color: #cacaca;
+    padding: 3px 6px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
