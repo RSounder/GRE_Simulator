@@ -13,11 +13,6 @@ var folderName = "";
 document.getElementById('prev-btn').style.display = 'none';
 document.getElementById('next-btn').style.display = 'none';
 
-function update() {
-        var select = document.getElementById('inputFolder');
-        folderName = select.options[select.selectedIndex];
-}
-
 function getPrevious() {
     if(currentItemIndex > startItems) {
         currentItemIndex--;
@@ -52,6 +47,9 @@ function buttonColor() {
 }
 
 function startTest() {
+    var select = document.getElementById('inputFolder');
+    folderName = select.options[select.selectedIndex];
+	
     totalItems = document.getElementById('attemptQues').value;
     startItems = document.getElementById('attemptQuesStart').value;
     currentItemIndex = startItems;
