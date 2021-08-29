@@ -48,6 +48,20 @@ input.button {
     cursor: pointer;
 }
 
+input.about-button {
+    margin-right: 0.5rem;
+    background-color: rgb(128, 128, 128);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .qnum-timer {
     height: 5%;
     min-width: 100vh;
