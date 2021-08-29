@@ -8,8 +8,6 @@ var modal = document.getElementById("myModal");
 var btn = document.getElementById("aboutBtn");
 var span = document.getElementsByClassName("close")[0];
 
-//Probability, ETS_Quants_MixedSet2,ETS_Quants_MixedSet3...
-
 document.getElementById('prev-btn').style.display = 'none';
 document.getElementById('next-btn').style.display = 'none';
 
