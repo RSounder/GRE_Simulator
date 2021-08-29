@@ -12,6 +12,7 @@ var span = document.getElementsByClassName("close")[0];
 
 document.getElementById('prev-btn').style.display = 'none';
 document.getElementById('next-btn').style.display = 'none';
+document.getElementById('qnum-timer').style.display = 'none';
 
 function getPrevious() {
     if(currentItemIndex > startItems) {
@@ -59,6 +60,7 @@ function startTest() {
     document.getElementById('attemptQues').style.display = 'none';
     document.getElementById('start-btn').style.display = 'none';
 
+    document.getElementById('qnum-timer').style.display = 'block';
     document.getElementById('prev-btn').style.display = 'block';
     document.getElementById('prev-btn').style.backgroundColor = 'gray';
     document.getElementById('next-btn').style.display = 'block';
