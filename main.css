@@ -209,4 +209,5 @@ img#contentImg {
 .modal-text {
   font-family: Helvetica;
   padding: 1% 0;
+  display: inline-block;
 }
