@@ -5,13 +5,18 @@ var quesNum = document.getElementById("quesNum");
 var contentImg = document.getElementById("contentImg");
 var folderName = "ETS_Quants_MixedSet3"; 
 
-//var selectfolderName = document.getElementById('folderName');
-//var folderName = select.options[select.selectfolderName].value;
+//var select = document.getElementById('language');
+//var option = select.options[select.selectedIndex];
 
 //Probability, ETS_Quants_MixedSet2,...
 
 document.getElementById('prev-btn').style.display = 'none';
 document.getElementById('next-btn').style.display = 'none';
+
+function update() {
+        var select = document.getElementById('folderName');
+        folderName = select.options[select.selectedIndex];
+}
 
 function getPrevious() {
     if(currentItemIndex > startItems) {
