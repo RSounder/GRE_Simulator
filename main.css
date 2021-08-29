@@ -206,7 +206,11 @@ img#contentImg {
   to {opacity: 1}
 }
 
-.modal-text {
+.modal-text, .modal-link {
   font-family: Helvetica;
   padding: 1% 5% 
+}
+
+.modal-link  {
+  display: inline;
 }
