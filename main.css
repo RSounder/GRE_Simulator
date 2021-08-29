@@ -105,3 +105,10 @@ img#contentImg {
     align-content: center;
     margin: 1rem;
 }
+
+.input-folder{
+    margin-right: 0.5rem;
+    height: 98%;
+    border-radius: 5px;
+    align-self: flex-end;
+}
