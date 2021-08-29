@@ -5,7 +5,7 @@ var quesNum = document.getElementById("quesNum");
 var contentImg = document.getElementById("contentImg");
 var folderName = ""; 
 var modal = document.getElementById("myModal");
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("aboutBtn");
 var span = document.getElementsByClassName("close")[0];
 
 //Probability, ETS_Quants_MixedSet2,ETS_Quants_MixedSet3...
