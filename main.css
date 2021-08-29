@@ -205,3 +205,8 @@ img#contentImg {
   from {opacity: 0} 
   to {opacity: 1}
 }
+
+.modal-text {
+  font-family: Helvetica;
+  padding: 0 2% 2% 5% 
+}
