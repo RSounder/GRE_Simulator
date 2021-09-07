@@ -19,6 +19,7 @@
 }
 
 .buttons {
+    margin-left: 1%;
     display: flex;
     justify-content: flex-end;
 }
@@ -29,10 +30,12 @@
 }
 
 .logo-img {
-    margin-left: 0.5rem;
-    width: 50%;
     color: white;
     filter: invert(0.9) grayscale(1) brightness(2);
+    margin: 0 0.5rem;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
 }
 
 input.button {
